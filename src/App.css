@@ -1,0 +1,35 @@
+body{
+ 
+ 
+}
+img{
+  width: 90%;
+  height: 90%;
+  border-radius: 60%;
+}
+table{
+  background-color: rgb(233, 245, 127);
+  
+}
+td{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer{
+  padding-top: 10px;
+  background-color: rgb(233, 245, 127);
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  
+  text-align: center;
+}
+h1{
+  color: rgb(124, 18, 18);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
