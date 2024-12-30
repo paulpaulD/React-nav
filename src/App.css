@@ -1,35 +1,89 @@
-body{
- 
- 
+.navbar {
+  display: flex;
+  align-items: center;
+  size: 110cap;
+  justify-content:flex-start;
+  padding: 10px 20px;
+  background-color: rgb(251, 239, 224); 
 }
-img{
-  width: 90%;
-  height: 90%;
-  border-radius: 60%;
+
+.logo {
+  width: 100px; 
+  height: auto;
+  border-radius: 50%;
 }
-table{
-  background-color: rgb(233, 245, 127);
-  
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-td{
-  color: white;
-  font-size: 20px;
+
+.nav-links li {
+  margin: 0 25px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
+  font-size:xx-large;
   text-align: center;
 }
 
+
 footer{
   padding-top: 10px;
-  background-color: rgb(233, 245, 127);
+  background-color: rgb(251, 239, 224);
   position: fixed;
   bottom: 0%;
   width: 100%;
   
   text-align: center;
 }
-h1{
-  color: rgb(124, 18, 18);
-  font-size: 50px;
-  font-weight: bold;
+p{
+  color: #fefafaeb;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
+h1{
+  text-align: center;
+  color: #f5f5f5;
+  font-size: xx-large;
+}
+#img-home{
+  background-image: url("https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9928.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+  
+}
+#img-about{
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+}
+#img-contact{
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+#img-abc{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Sc-J8TOASModYi-NvPVTIbGZdIZ9yObYWg&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+h3{
+  color: #000000;
+}
+
